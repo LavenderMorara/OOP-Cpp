@@ -11,7 +11,7 @@
 //BASICS
 //1. Data types - tells C++ what kind of data a variable can store, and what operations are allowed.
     // 1. int - whole numbers eg int age = 4;
-    // 2. float - less precise decomals ie those that are rounded off etc.
+    // 2. float - less precise decimals ie those that are rounded off etc.
     //    eg. float height = 172.6;
     // 3. double - more precise decimals ; usually longer eg. double pi = 3.141592653;
     // 4. char - used when the data is a single character;  enclosed in single quotes eg. char grade = 'A';
@@ -50,7 +50,8 @@
 #include <iostream> //- allows input/ output referenced in cout and cin
 using namespace std; //- helps avoid referencing std repeatedly in the code eg. std :: cout
 
-int main(){//- main() is the main entry point of every c++ program; where program begins running and in plave of int you cna have the data type of the value the
+int main(){//- main() is the main entry point of every c++ program; where program begins running and int is the only data type you can have ie.
+//  return 0 if program run successfully till completion and 1 if not.
 //  function returns
     cout << "Hello World !" << endl;
     cout<< "Hello World\n";

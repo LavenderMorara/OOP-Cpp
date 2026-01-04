@@ -1,6 +1,6 @@
 //Method - this is a function that is defined within a class and is used to carry out operations on the data members of the class.
 
-//Need for mehtods
+//Need for methods
 //-perform operations on data members
 //-control access to data
 //-rep real world behaviours

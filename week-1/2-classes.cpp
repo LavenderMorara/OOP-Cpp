@@ -15,8 +15,8 @@
 
 //Access specifiers - define where class members; variables and methods, can be accessed from
 //1. private access specifier - data can't be accessed from outside the class;class data is private by default hence you don't have to explicitly specify it.
-//2. public acces specifier - data can be accessed externally by objects of the class
-//3. protected acces specifier - data can be accessed within the class and by derived child classes
+//2. public access specifier - data can be accessed externally by objects of the class
+//3. protected access specifier - data can be accessed within the class and by derived child classes
 // #include <string>
 // class Car{
 //     public:
@@ -50,7 +50,7 @@
 //     }
 // };                
 // example constructors
-// 1.default constructors-construcors that take no arguments and initialises all its abjects with preset values.
+// 1.default constructors-constructors that take no arguments and initialises all its abjects with preset values.
 // #include <iostream>
 // #include <string>
 // using namespace std;
@@ -60,7 +60,7 @@
 //     string name;
 //     int salary;
 
-//     Employee(){/*when a constructor is defined as so, all objects instantiated will have the same values for name ans salary*/
+//     Employee(){/*when a constructor is defined as so, all objects instantiated will have the same values for name and salary*/
 //         name = "Chiya";
 //         salary = 30000;
 //     }
@@ -77,8 +77,8 @@
 // };
 
 
-//2.Copy constructor - a special constructor that creates a new object as a copy of an existng object ie. the values assigned are copied through the new copy example under parametised constructors
-// 3.1  Parameterised constructors-has no default values or arguments and values are assigned upon instantiation
+//2.Copy constructor - a special constructor that creates a new object as a copy of an existng object ie. the values assigned are copied to the new object example under parametised constructors
+// 2.1  Parameterised constructors-has no default values or arguments and values are assigned upon instantiation
 // #include <iostream>
 // #include <string>
 // using namespace std;
@@ -109,7 +109,7 @@
 //     cout <<c2.brand<<" "<<c2.year<<" "<<c2.price<< endl;
 //     return 0 ;
 // };
-// 3.2  Constructor with default arguments- this provides forassigning values and in the case values is not assigned, the default values is used
+// 2.2  Constructor with default arguments- this provides for assigning values and in the case values is not passed during instantiation, the default values is used
 // #include <iostream>
 // #include <string>
 // using namespace std;
@@ -119,7 +119,7 @@
 //     string name;
 //     double price;
 
-//     Product(string n= "bites", double p = 430.0){/*in the instance that only one member ahs a default argument, despite the order in which it was listed on the class definition, as an argument have the defaule being the last in the constructor parenthesis*/
+//     Product(string n= "bites", double p = 430.0){/*in the instance that only one member has a default argument, despite the order in which it was listed on the class definition, have the one with default argument being the last in the constructor parenthesis*/
 //         // ie Product(double p, string n = "bites") then define them in reference to the members in the class
 //        name = n;
 //        price = p;
@@ -136,8 +136,8 @@
 //     return 0;
 // };
 
-//Deconstructors - special finction of a class tha tis automatically called when an object is destroyed.
-//Functions: -Release recources before object is remocved from memory.
+//Deconstructors - special function of a class that is automatically called when an object is destroyed.
+//Functions: -Release recources before object is removed from memory.
          //  - Perform clean up  "     "
          //  -Close connections "      "
 //characteristics: - uses same name as class but preceded by tilde(~).
