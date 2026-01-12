@@ -53,3 +53,18 @@ int main (){
 
     return 0;
 };
+
+class Student {
+public:
+    static string school;  // static variable
+};
+
+string Student::school = "JKUAT";  // definition outside class
+
+int main() {
+    Student s1, s2;
+    s1.school = "JKUAT WEST";
+
+    cout << s2.school << endl;  // JKUAT WEST
+    return 0;
+}
